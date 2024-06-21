@@ -1,3 +1,18 @@
+# Kotlin MDK
+
+This is a fork of NeoForge's MDK that is configured to use Kotlin. The following modifications have been made:
+- Gradle's Kotlin DSL for the build scripts
+- Port existing Java code to Kotlin
+- Adjust necessary resources for running on Kotlin (i.e. depend on KFF)
+- Added an example Mixin to emphasize that Mixins should only be written in Java
+
+> [!NOTE]
+> The Kotlin experience is not very good in Eclipse. The original MDK may be made to work with Eclipse as well,
+> but if you want to use Kotlin, the best choice is IntelliJ IDEA with the Minecraft Development Plugin.
+
+---
+
+Original README:
 
 Installation information
 =======
