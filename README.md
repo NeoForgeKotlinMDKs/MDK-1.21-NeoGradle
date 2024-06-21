@@ -1,7 +1,6 @@
 # Kotlin MDK
 
 This is a fork of NeoForge's MDK that is configured to use Kotlin. The following modifications have been made:
-- Gradle's Kotlin DSL for the build scripts
 - Port existing Java code to Kotlin
 - Adjust necessary resources for running on Kotlin (i.e. depend on KFF)
 - Added an example Mixin to emphasize that Mixins should only be written in Java
